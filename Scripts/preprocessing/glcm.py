@@ -5,7 +5,7 @@ def calc_glcm_all_agls(img, label, props, dists=[1], agls=[0, np.pi/4, np.pi/2, 
     glcm = graycomatrix(
         img,
         distances=dists,
-        angels=agls,
+        angles=agls,
         levels=lvl,
         symmetric=sym,
         normed=norm
